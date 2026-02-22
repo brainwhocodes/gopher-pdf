@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	fitz "bank-statments/backend/pkg/gopher-pdf/internal/fitz"
+	fitz "github.com/brainwhocodes/gopher-pdf/internal/fitz"
 )
 
 // Document provides a Go-facing API over MuPDF document operations.

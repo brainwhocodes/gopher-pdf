@@ -4,7 +4,7 @@ import (
 	"image"
 	"strings"
 
-	fitz "bank-statments/backend/pkg/gopher-pdf/internal/fitz"
+	fitz "github.com/brainwhocodes/gopher-pdf/internal/fitz"
 )
 
 // NeedsPassword reports whether the opened document still requires password auth.

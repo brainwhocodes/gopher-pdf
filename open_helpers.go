@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	fitz "bank-statments/backend/pkg/gopher-pdf/internal/fitz"
+	fitz "github.com/brainwhocodes/gopher-pdf/internal/fitz"
 )
 
 func openFitzMaybeAuth(source string, doc *fitz.Document, openErr error, password string) (*fitz.Document, error) {

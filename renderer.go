@@ -7,7 +7,7 @@ import (
 	"image/png"
 	"time"
 
-	fitz "bank-statments/backend/pkg/gopher-pdf/internal/fitz"
+	fitz "github.com/brainwhocodes/gopher-pdf/internal/fitz"
 )
 
 // MuPDFRenderer rasterizes PDF pages using a Go MuPDF binding.

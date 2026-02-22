@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	fitz "bank-statments/backend/pkg/gopher-pdf/internal/fitz"
+	fitz "github.com/brainwhocodes/gopher-pdf/internal/fitz"
 )
 
 // Text returns plain text for a page.

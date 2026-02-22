@@ -23,6 +23,6 @@ func resourcePath(t *testing.T, name string) string {
 	if !ok {
 		t.Fatalf("could not determine caller path")
 	}
-	backendPkg := filepath.Clean(filepath.Join(filepath.Dir(file), ".."))
-	return filepath.Join(backendPkg, "gopher-pdf", "resources", name)
+	moduleRoot := filepath.Dir(file)
+	return filepath.Join(moduleRoot, "resources", name)
 }

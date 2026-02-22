@@ -3,7 +3,7 @@ package gopherpdf
 import (
 	"fmt"
 
-	fitz "bank-statments/backend/pkg/gopher-pdf/internal/fitz"
+	fitz "github.com/brainwhocodes/gopher-pdf/internal/fitz"
 )
 
 // NumPages returns total number of pages.
